@@ -2,78 +2,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .one {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-content: stretch;
-    box-sizing: border-box;
-    width: 768px;
-    height: 6000px;
-    margin: auto;
-  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: stretch;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 36px 15px 24px;
+  box-sizing: border-box;
+  background-color: #fff;
+  order: 0;
+  margin: 0;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 76px;
+  height: 20px;
+  top: 10px;
+  left: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+  transition: transform 0.4s ease-in-out;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+#mobile-nav {
+  transition: all 0.3s ease-in-out;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(96, 112, 255, 0.9);
+}
+
+#menu {
+  display: block;
+  cursor: pointer;
+}
+
+#menu.active {
+  float: right;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #6070ff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.heading {
+  display: none;
+}
+
+.conlogo {
+  display: none;
+}
 
 
-  
-.onee {
-    display: none;
-}  
-  
-  .header {
-    display: flex;
-    flex-direction: row;
-    width: 375px;
-    height: 48px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 36px 15px 24px;
-    box-sizing: border-box;
-    background-color: #fff;
-    order: 0;
-    margin: 0;
-  }
-
-  .heading {
-    display: none;
-  }
-
-  .conlogo {
-    display: none;
-  }
-  
-  #logo {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    width: 76px;
-    height: 20px;
-    top: 10px;
-    left: 12px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    color: #6070ff;
-    transition: transform 0.4s ease-in-out;
-  }
-  
-#logo1 {
-    display: none;
+.conthead {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
 
-.onee {
-    max-width: 100%;
-}
-
-.one {
-    display: none;
-}
-
-.heading {
+  .heading {
     display: flex;
     flex-grow: column;
     width: 1450px;
@@ -83,22 +103,19 @@
     margin: auto;
     justify-content: space-between;
     background-color: #fff;
-}
-
-.header {
-    display: none;
-}
-      
-.conlogo {
+    align-items: center;
+  }
+  
+  .conlogo {
     display: flex;
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
     position: absolute;
     height: auto;
-}
-      
-#logo1 {
+  }
+  
+  #logo1 {
     width: 76px;
     height: 20px;
     text-decoration: none;
@@ -106,8 +123,85 @@
     font-size: 18px;
     color: #6070ff;
     transition: transform 0.4s ease-in-out;
-}
-
-#logo {
+  }
+  
+  #logo1:hover {
+    transform: scale(1.1);
+  }
+  
+  .conthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    min-height: auto;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  #portfolio {
+    width: 62px;
+    height: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: #344563;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  #portfolio:hover {
+    transform: scale(1.1);
+  }
+  
+  #about {
+    width: 62px;
+    height: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: #344563;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  #about:hover {
+    transform: scale(1.1);
+  }
+  
+  #contact {
+    width: 62px;
+    height: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: #344563;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  #contact:hover {
+    transform: scale(1.1);
+  }
+  
+  .one {
     display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  #logo {
+    display: none;
+
+  .mobile-nav {
+    display: none;
+  }
+
+  /*#menu {
+    display: none;
+  }*/
+
+  .bar {
+    display: none;
+  }
 }
