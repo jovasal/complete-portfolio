@@ -4,18 +4,21 @@
 .one {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-content: stretch;
-  box-sizing: border-box;
+  width: 676px;
+  height: 72px;
+  left: 0;
+  top: 0;
   margin: auto;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: start;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   padding: 50px 36px 15px 24px;
   box-sizing: border-box;
   background-color: #fff;
@@ -85,7 +88,6 @@
 .conlogo {
   display: none;
 }
-
 
 .conthead {
   display: none;
@@ -197,9 +199,9 @@
     display: none;
   }
 
-  /*#menu {
+  #menu {
     display: none;
-  }*/
+  }
 
   .bar {
     display: none;
