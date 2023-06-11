@@ -46,7 +46,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 915px;
+  height: 990px;
   font-family: "Poppins", "Courier New", Courier, monospace;
 }
 
@@ -388,6 +388,7 @@
 .card-left1 {
   display: flex;
   flex-direction: column;
+  width: 50%;
   border-radius: 24px 24px 24px 24px;
   background-color: #fff;
   margin: 20px;
@@ -397,6 +398,7 @@
 .card-right1 {
   display: flex;
   flex-direction: column;
+  width: 50%;
   border-radius: 24px 24px 24px 24px;
   background-color: #fff;
   margin: 20px;
@@ -409,6 +411,7 @@
   margin-bottom: 142px;
   flex-direction: row;
   justify-content: space-between;
+  height: 100%;
 }
 
 .lenguagelist {
