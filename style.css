@@ -242,13 +242,104 @@ nav {
   border-color: #2230d2;
 }
 
+/* About Myself Section Design */
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-top-right-radius: 80px;
+  padding: 60px 110px;
+}
+
+.content-about-myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-myself h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.about-myself p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0 0 12px 0;
+}
+
+.about-myself .social-links {
+  padding-left: 18px;
+}
+
+.about-myself-ul {
+  padding: 60px 0 0 0;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  padding: 0 42px 23px 12px;
+  border-bottom: 1px solid #dfe1e6;
+  margin-top: 24px;
+}
+
+#open {
+  border-bottom: none;
+}
+
+.languages-ul {
+  padding-left: 12px;
+}
+
+.languages {
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #253858;
+}
+
+#js::before {
+  content: url(./images/Ellipse.png);
+  padding-right: 16px;
+}
+
+#html::before {
+  content: url(./images/Ellipse-2.png);
+  padding-right: 16px;
+}
+
+#css::before {
+  content: url(./images/Ellipse-3.png);
+  padding-right: 16px;
+}
 
 
 /* Desktop Support */
 @media screen and (min-width: 768px) {
   /* Navigation Bar */
   nav {
-    height: 60px;
+    height: 140px;
+  }
+
+  .headline {
+    margin-top: 0;
   }
 
   .burger {
@@ -321,6 +412,53 @@ nav {
 
   .right-image .content {
     margin: 0 30px;
+  }
+
+  /* About myself */
+  .about-myself {
+    flex-direction: row;
+    justify-content: start;
+    padding: 94px 140px;
+  }
+
+  .content-about-myself {
+    width: 65%;
+    min-width: 295px;
+    margin-right: 24px;
+  }
+
+  .about-myself-ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  .languages-ul {
+    display: flex;
+  }
+
+  .languages {
+    width: 87px;
+    margin-right: 0.6em;
+    padding-top: 75px;
+    justify-content: center;
+  }
+
+  #js::before {
+    position: absolute;
+    padding-bottom: 90px;
+    padding-left: 20px;
+  }
+
+  #html::before {
+    position: absolute;
+    padding-bottom: 90px;
+    padding-left: 20px;
+  }
+
+  #css::before {
+    position: absolute;
+    padding-bottom: 90px;
+    padding-left: 20px;
   }
 }
 
