@@ -1,11 +1,12 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  </br>
-     <h3><b>My Portfolio</b></h3>
+<div>
+  
+  <h3><b>Microverse README Template</b></h3>
+
 </div>
 
-
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -15,140 +16,115 @@
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
+    - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-# 📖 [My-Portfolio] <a name="My-Portfolio"></a>
+# 📖 [Figma-portfolio] <a name="about-project"></a>
 
+> This is my first FIGMA project in Microverse with 2 first section.
 
-**[My-Portfolio]** is a project that shows my skills and tools that I use as a software developer.
+FIGMA template is Template 1
+
+**[Figma-portfolio]**
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+> This project were made with HTML and CSS.
 
 <details>
-  <summary>HTML</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://html.com/">html</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>CSS</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://desarrolloweb.com/home/css">css</a></li>
   </ul>
 </details>
 
-
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
+> Describe between 1-3 key features of the application.
 
-
-- **[README_File]**
-- **[Github_Flow]**
-- **[Linters]**
+- **[key_feature_1]**
+> Learning
+- **[key_feature_2]**
+> Aplication
+- **[key_feature_3]**
+> Develop
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-
-In this project is not applicable.
+> This project is a develop using FIGMA templates
 
 ### Prerequisites
 
 In order to run this project you need:
 
+<Knowledge in HTML and CSS
+           
 ### Setup
 
-Clone this repository to your desired folder:
+Yoy can use this repository ising the following steps:
+           
+           1. Clone a repository from www.github.com You can use the follonig link directly to the repository:
+           https://github.com/jovasal/Figma-portfolio.git
+           
+           2.Clone this repository to your desired folder:
+           
+           Example commands:
+           ```sh
+           cd my-folder
+           git clone https://github.com/jovasal/Figma-portfolio.git
+           ```
+           
+           If you prefer to download without commands, tin the link, 
+           you can press <> Code button, choose Local and then Download.zip. 
+           Remember to extrat in your faverite part of your computer.
+           
+           Finaly, you can use as a reference for your future codes.
 
-### Install
-
-Install this project with:
-
-### Usage
-
-To run the project, execute the following command:
-
-### Run tests
-
-To run tests, run the following command:
-
-### Deployment
-
-You can deploy this project using:
-
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
+> John Alonso Vasquez Salcedo
 
 👤 **Author1**
 
-John Alonso Vasquez Salcedo
-
-- GitHub: [@jovasal](https://github.com/jovasal))
-- Twitter: [@jovasal181](https://twitter.com/jovasal81)
-- LinkedIn: [John Vasquez](https://www.linkedin.com/in/john-alonso-vasquez-salcedo-95749632/)
-
+- GitHub: [@githubhandle](https://github.com/jovasal/)
+- Twitter: [@twitterhandle](https://twitter.com/jovasal)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-alonso-vasquez-salcedo-95749632/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[HTML]**
-- [ ] **[CSS]**
-- [ ] **[LINTERS]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Thank you so much to Miroverse course and FIGMA
 
-Feel free to check the [issues page](../../issues/).
+https://www.microverse.org/es/inicio
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ⭐️ Show your support <a name="support"></a>
-
-Coming soon
+https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=0-1&t=RPW7Tc9sYQ99gXvI-0
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-I would like to thank to Microverse program.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
