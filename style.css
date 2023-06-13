@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
-/* General CSS Rules */
 :root {
   --blue: #6070ff;
 }
@@ -15,6 +14,7 @@
 .primary-link {
   color: #6070ff;
 }
+
 .primary-title {
   color: #091e42;
 }
@@ -27,7 +27,7 @@
   color: #7f8cff;
 }
 
-* {
+{
   font-family: 'Poppins', sans-serif;
 }
 
@@ -51,7 +51,6 @@ ul {
   list-style: none;
 }
 
-/* Navbar Design */
 nav {
   display: flex;
   position: fixed;
@@ -82,7 +81,6 @@ nav {
   margin-right: 28px;
 }
 
-/* Headline Design */
 .headline {
   display: flex;
   flex-direction: column;
@@ -132,7 +130,6 @@ nav {
   padding-right: 18px;
 }
 
-/* Works Section Design */
 .projects {
   display: grid;
   padding: 110px 72px 110px 72px;
@@ -242,7 +239,6 @@ nav {
   border-color: #2230d2;
 }
 
-/* About Myself Section Design */
 .about-myself {
   display: flex;
   flex-direction: column;
@@ -330,8 +326,6 @@ nav {
   padding-right: 16px;
 }
 
-/* Contact Section */
-
 #consection {
   display: flex;
   flex-direction: column;
@@ -403,7 +397,7 @@ form {
   padding: 0 15px;
   cursor: pointer;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 20px;
   color: #172b4d;
 }
@@ -417,21 +411,21 @@ form {
   padding: 15px;
   cursor: pointer;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 20px;
   color: #172b4d;
 }
 
 .input-container::placeholder {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 24px;
   color: #b3bac5;
 }
 
 .input-container-2::placeholder {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 24px;
   color: #b3bac5;
 }
@@ -441,7 +435,7 @@ form {
   background-color: white;
   border-radius: 8px;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 24px;
   color: var(--blue);
   padding: 12px 16px;
@@ -460,10 +454,7 @@ form {
   border-color: #2230d2;
 }
 
-
-/* Desktop Support */
 @media screen and (min-width: 768px) {
-  /* Navigation Bar */
   nav {
     height: 140px;
   }
@@ -493,20 +484,18 @@ form {
     margin-left: 2.22vw;
   }
 
-    /* Headline */
-    .headline {
-      background-image: url(./images/background-desktop-contact-form.png);
-      background-size: contain;
-      background-position: center;
-      margin-top: 140px;
-      padding: 0 245px 190px 245px;
-    }
-  
-    .headline p {
-      max-width: 870px;
-    }
+  .headline {
+    background-image: url(./images/background-desktop-contact-form.png);
+    background-size: contain;
+    background-position: center;
+    margin-top: 140px;
+    padding: 0 245px 190px 245px;
+  }
+ 
+  .headline p {
+    max-width: 870px;
+  }
 
-     /* Projects Section */
   .projects {
     padding: 160px;
     row-gap: 160px;
@@ -544,7 +533,6 @@ form {
     margin: 0 30px;
   }
 
-  /* About myself */
   .about-myself {
     flex-direction: row;
     justify-content: start;
@@ -589,6 +577,25 @@ form {
     position: absolute;
     padding-bottom: 90px;
     padding-left: 20px;
+  }
+
+  .contact-section {
+    padding-top: 60px;
+  }
+
+  .contact-container {
+    padding: 60px 340px;
+    background-image: url(./images/background-desktop-contact-form.png);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .form-container {
+    max-width: 540px;
+  }
+
+  .button-form {
+    align-self: center;
   }
 }
 
