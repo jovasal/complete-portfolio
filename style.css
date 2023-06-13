@@ -132,13 +132,122 @@ nav {
   padding-right: 18px;
 }
 
+/* Works Section Design */
+.projects {
+  display: grid;
+  padding: 110px 72px 110px 72px;
+  row-gap: 72px;
+}
+
+.cards {
+  background-color: white;
+  border-radius: 24px ;
+  border: 1px solid #dfe1e6;
+  padding: 24px;
+}
+
+.img-project img {
+  width: 100%;
+  height: auto;
+}
+
+.cards h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 12px 0 12px 0;
+}
+
+.info-tags {
+  display: flex;
+  align-items: baseline;
+}
+
+.cards h3 {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  margin: 0;
+}
+
+.info-tags p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  margin: 0 0 0 10px;
+}
+
+.info-tags p::before {
+  content: url(./images/Counter.png);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.cards-p .primary-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 20px 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px 0;
+  padding: 0;
+}
+
+.tags li {
+  margin-bottom: 8px;
+}
+
+.tags a {
+  padding: 4px 12px 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--blue);
+  margin-right: 8px;
+}
+
+.tags a:hover {
+  background-color: #d6d6ff;
+}
+
+.main-buttons {
+  padding: 12px;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  margin: 14px 0 18px 0;
+  width: fit-content;
+}
+
+.main-buttons:hover {
+  background-color: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+
+.main-buttons:active {
+  background-color: #2230d2;
+  color: white;
+  border-color: #2230d2;
+}
 
 
 /* Desktop Support */
 @media screen and (min-width: 768px) {
   /* Navigation Bar */
   nav {
-    height: 10vh;
+    height: 60px;
   }
 
   .burger {
@@ -174,5 +283,43 @@ nav {
     .headline p {
       max-width: 870px;
     }
+
+     /* Projects Section */
+  .projects {
+    padding: 160px;
+    row-gap: 160px;
+  }
+
+  .cards {
+    display: flex;
+  }
+
+  .img-project {
+    align-self: center;
+  }
+
+  .img-project img {
+    width: 420px;
+  }
+
+  .content {
+    margin: 0 44px;
+  }
+
+  .content h2 {
+    padding-top: 12px;
+  }
+
+  .info-tags {
+    padding-bottom: 12px;
+  }
+
+  .right-image {
+    flex-direction: row-reverse;
+  }
+
+  .right-image .content {
+    margin: 0 30px;
+  }
 }
 
