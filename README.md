@@ -169,21 +169,17 @@ John Alonso Vasquez Salcedo
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-https://www.microverse.org/es/inicio
+Contributions, issues, and feature requests are welcome!
 
-https://www.w3schools.com/
+Feel free to check the [issues page](https://github.com/jovasal/complete-portfolio/issues).
 
-https://concepto.de/html/
-
-https://desarrolloweb.com/articulos/que-es-html.html
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> COMMING SOON
-
-If you like this project, please, feel dree to contact me for any social media mentioned before or by github
+> If you like this project kindly show some love, give it a 🌟 **STAR** 🌟
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,9 +187,9 @@ If you like this project, please, feel dree to contact me for any social media m
 
 > Thank you so much to Miroverse course and FIGMA
 
-https://www.microverse.org/es/inicio
+[Microverse](https://www.microverse.org/es/inicio)
 
-https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=0-1&t=RPW7Tc9sYQ99gXvI-0
+[FIGMA](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=0-1&t=RPW7Tc9sYQ99gXvI-0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
