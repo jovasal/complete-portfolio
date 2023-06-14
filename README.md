@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Complete-Portfolio] <a name="about-project"></a>
 
 > This project contains all technical details knowledges required for Microverse process student
 
